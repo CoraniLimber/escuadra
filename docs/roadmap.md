@@ -1,77 +1,81 @@
 # Roadmap de Funcionalidades
 
-Este documento describe las funcionalidades planificadas, en desarrollo y completadas para cada módulo del proyecto Escuadra.
-
-## Módulo Mecánica
-
-| Funcionalidad | Módulo | Dificultad | good_first_issue | Estado |
-|--------------|--------|------------|------------------|---------|
-| Cálculo de fuerza (F = m × a) | Mecánica | S | ✓ | Completada |
-| Cálculo de trabajo (W = F × d) | Mecánica | S | ✓ | Completada |
-| Cálculo de velocidad (v = d/t) | Mecánica | S | ✓ | Completada |
-| Cálculo de aceleración (a = Δv/Δt) | Mecánica | S | ✓ | Planificada |
-| Cálculo de energía cinética (Ec = ½mv²) | Mecánica | M | ✓ | Planificada |
-| Cálculo de energía potencial (Ep = mgh) | Mecánica | M | ✓ | Planificada |
-| Simulación de movimiento parabólico | Mecánica | L | ✗ | Planificada |
-| Análisis de fuerzas en equilibrio | Mecánica | L | ✗ | Planificada |
-
-## Módulo Sistemas
-
-| Funcionalidad | Módulo | Dificultad | good_first_issue | Estado |
-|--------------|--------|------------|------------------|---------|
-| Conversión decimal a binario | Sistemas | S | ✓ | Completada |
-| Ordenamiento de listas | Sistemas | S | ✓ | Completada |
-| Búsqueda de elementos en lista | Sistemas | S | ✓ | Completada |
-| Conversión decimal a hexadecimal | Sistemas | S | ✓ | Planificada |
-| Conversión decimal a octal | Sistemas | S | ✓ | Planificada |
-| Algoritmo de ordenamiento quicksort | Sistemas | M | ✓ | Planificada |
-| Algoritmo de búsqueda binaria | Sistemas | M | ✓ | Planificada |
-| Implementación de estructuras de datos (pila, cola) | Sistemas | L | ✗ | Planificada |
-
-## Módulo Industrial
-
-| Funcionalidad | Módulo | Dificultad | good_first_issue | Estado |
-|--------------|--------|------------|------------------|---------|
-| Cálculo de productividad | Industrial | S | ✓ | Completada |
-| Cálculo de eficiencia | Industrial | S | ✓ | Completada |
-| Cálculo de tiempo de producción | Industrial | S | ✓ | Completada |
-| Cálculo de costo de producción | Industrial | M | ✓ | Planificada |
-| Análisis de capacidad de producción | Industrial | M | ✓ | Planificada |
-| Cálculo de tasa de defectos | Industrial | M | ✓ | Planificada |
-| Optimización de línea de producción | Industrial | L | ✗ | Planificada |
-| Simulación de procesos industriales | Industrial | L | ✗ | Planificada |
+Este documento describe las funcionalidades planificadas, en desarrollo y completadas para cada módulo del proyecto Escuadra, basado en el código fuente implementado y la documentación existente.
 
 ## Módulo Civil
 
 | Funcionalidad | Módulo | Dificultad | good_first_issue | Estado |
 |--------------|--------|------------|------------------|---------|
-| Cálculo de área de rectángulo | Civil | S | ✓ | Completada |
-| Cálculo de volumen de concreto | Civil | S | ✓ | Completada |
-| Cálculo de resistencia de materiales | Civil | S | ✓ | Completada |
-| Cálculo de área de triángulo | Civil | S | ✓ | Planificada |
-| Cálculo de área de círculo | Civil | S | ✓ | Planificada |
-| Cálculo de volumen de cilindro | Civil | M | ✓ | Planificada |
-| Análisis de cargas estructurales | Civil | L | ✗ | Planificada |
-| Diseño de vigas y columnas | Civil | L | ✗ | Planificada |
+| Análisis de vigas simplemente apoyadas | Civil | M | ✓ | Completada |
+| Cálculo de momento flector | Civil | M | ✓ | Completada |
+| Cálculo de deflexión de vigas | Civil | M | ✓ | Completada |
+| Cálculo de área de secciones transversales | Civil | S | ✓ | Completada |
+| Análisis de cargas distribuidas | Civil | M | ✓ | Completada |
+| Cálculo de momento de inercia | Civil | M | ✓ | Planificada |
+| Análisis de vigas hiperestáticas | Civil | L | ✗ | Planificada |
+| Diseño de columnas | Civil | L | ✗ | Planificada |
 
 ## Módulo Eléctrica
 
 | Funcionalidad | Módulo | Dificultad | good_first_issue | Estado |
 |--------------|--------|------------|------------------|---------|
-| Cálculo de corriente (Ley de Ohm) | Eléctrica | S | ✓ | Completada |
+| Ley de Ohm (cálculo de voltaje, corriente, resistencia) | Eléctrica | S | ✓ | Completada |
 | Cálculo de potencia eléctrica | Eléctrica | S | ✓ | Completada |
-| Cálculo de resistencia | Eléctrica | S | ✓ | Completada |
-| Cálculo de energía consumida | Eléctrica | M | ✓ | Planificada |
-| Cálculo de caída de voltaje | Eléctrica | M | ✓ | Planificada |
-| Análisis de circuitos en serie | Eléctrica | M | ✓ | Planificada |
-| Análisis de circuitos en paralelo | Eléctrica | M | ✓ | Planificada |
-| Diseño de sistemas de alimentación | Eléctrica | L | ✗ | Planificada |
+| Análisis de circuitos serie y paralelo | Eléctrica | M | ✓ | Completada |
+| Cálculo de caída de tensión en conductores | Eléctrica | M | ✓ | Completada |
+| Divisor de tensión | Eléctrica | S | ✓ | Completada |
+| Conversión de unidades eléctricas | Eléctrica | S | ✓ | Completada |
+| Análisis de circuitos mixtos (serie-paralelo) | Eléctrica | M | ✓ | Planificada |
+| Leyes de Kirchhoff | Eléctrica | M | ✓ | Planificada |
+
+## Módulo Geometría
+
+| Funcionalidad | Módulo | Dificultad | good_first_issue | Estado |
+|--------------|--------|------------|------------------|---------|
+| Cálculo de áreas (triángulo, círculo, rectángulo) | Geometría | S | ✓ | Completada |
+| Cálculo de perímetros | Geometría | S | ✓ | Completada |
+| Cálculo de volúmenes | Geometría | S | ✓ | Completada |
+| Conversión de coordenadas | Geometría | M | ✓ | Completada |
+| Cálculo de áreas de figuras complejas | Geometría | M | ✓ | Planificada |
+| Geometría analítica avanzada | Geometría | L | ✗ | Planificada |
+
+## Módulo Matemáticas
+
+| Funcionalidad | Módulo | Dificultad | good_first_issue | Estado |
+|--------------|--------|------------|------------------|---------|
+| Conversión de unidades de longitud | Matemáticas | S | ✓ | Completada |
+| Conversión de temperatura (Celsius, Fahrenheit, Kelvin) | Matemáticas | S | ✓ | Completada |
+| Conversión de unidades de masa | Matemáticas | S | ✓ | Completada |
+| Conversión de unidades de presión | Matemáticas | S | ✓ | Completada |
+| Conversión de unidades de velocidad | Matemáticas | S | ✓ | Completada |
+| Conversión de unidades de energía | Matemáticas | S | ✓ | Completada |
+| Conversión de ángulos (grados, radianes) | Matemáticas | S | ✓ | Completada |
+| Cálculos trigonométricos (seno, coseno, tangente) | Matemáticas | S | ✓ | Completada |
+| Estadística descriptiva (media, mediana, moda, desviación) | Matemáticas | M | ✓ | Completada |
+| Potencias y raíces | Matemáticas | S | ✓ | Completada |
+| Calculadora científica | Matemáticas | M | ✓ | Completada |
+| Sistemas de ecuaciones lineales | Matemáticas | M | ✓ | Completada |
+| Conversión de unidades extendida | Matemáticas | S | ✓ | Planificada |
+| Álgebra lineal avanzada | Matemáticas | L | ✗ | Planificada |
+| Cálculo diferencial e integral | Matemáticas | L | ✗ | Planificada |
+
+## Módulo Sistemas
+
+| Funcionalidad | Módulo | Dificultad | good_first_issue | Estado |
+|--------------|--------|------------|------------------|---------|
+| Conversión de bases numéricas (binario, octal, decimal, hexadecimal) | Sistemas | S | ✓ | Completada |
+| Tablas de verdad para expresiones booleanas | Sistemas | M | ✓ | Completada |
+| Consulta de códigos ASCII | Sistemas | S | ✓ | Completada |
+| Conversión de colores (RGB, HEX, HSL) | Sistemas | S | ✓ | Completada |
+| Complemento a 2 | Sistemas | M | ✓ | Completada |
+| Operaciones con números binarios | Sistemas | M | ✓ | Planificada |
+| Lógica digital avanzada | Sistemas | L | ✗ | Planificada |
 
 ## Leyenda
 
 - **Dificultad:** S (Simple), M (Media), L (Larga/Compleja)
 - **good_first_issue:** ✓ (Apropiada para nuevos contribuidores), ✗ (Requiere experiencia)
 - **Estado:**
-  - **Completada:** Funcionalidad implementada y disponible
+  - **Completada:** Funcionalidad implementada y disponible en el código fuente
   - **Planificada:** Funcionalidad planeada para desarrollo futuro
   - **En desarrollo:** Funcionalidad actualmente en desarrollo
